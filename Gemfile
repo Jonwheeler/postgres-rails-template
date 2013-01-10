@@ -21,6 +21,7 @@ group :assets do
   gem 'uglifier'
   gem 'bourbon',      '~> 3.0.1'
   gem 'flutie',       '~> 1.3.3'
+  gem 'neat',         '~> 1.1.0'
   gem 'execjs'
   gem 'libv8',        '~> 3.3.10.4'
   gem 'therubyracer', '~> 0.10.2'

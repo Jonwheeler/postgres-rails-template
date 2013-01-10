@@ -1,0 +1,11 @@
+@import "bourbon";
+@import "flutie";
+@import "neat";
+
+.container {
+  @include outer-container;
+}
+
+h1 {
+  text-align:center;
+}
