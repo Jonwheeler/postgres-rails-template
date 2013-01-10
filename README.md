@@ -8,20 +8,23 @@ Clone repository and install all gems:
 
 ```
 git clone REPOSITORY_GIT_URL
-cd rails_template
+cd postgres-rails-template
 bundle install
 ```
 
 Rename application:
 
 ```
-NEW_NAME=CoolApplication rake rails:rename
+NEW_NAME=CoolApplication bundle exec rake rails:rename
 ```
 
 Reset git repository:
 
 ```
 rake rails:reset_git
+git init
+git add .
+git commit -m "Initial Commit"
 ```
 
 Update:
@@ -59,6 +62,8 @@ This template includes default gems:
 Edit `config/database.yml`
 
 ```
+# /config/database.yml
+
   defaults: &defaults
   adapter: postgresql
   host: localhost
