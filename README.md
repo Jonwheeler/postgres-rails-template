@@ -85,8 +85,16 @@ test:
 create database:
 
 ```
+# console
 createbd -Oroot -Eutf8 app_name_development
 createbd -Oroot -Eutf8 app_name_test
+```
+
+start your server:
+
+```
+# console
+rails server -thin
 ```
 
 Thanks to [Dan Sosedoff](https://github.com/sosedoff)
