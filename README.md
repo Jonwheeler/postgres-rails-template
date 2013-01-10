@@ -94,7 +94,7 @@ start your server:
 
 ```
 # console
-rails server -thin
+rails server thin
 ```
 
 Thanks to [Dan Sosedoff](https://github.com/sosedoff)
