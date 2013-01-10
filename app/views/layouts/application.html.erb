@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>AppTemplate</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="template_app" content="postgresql" />
+    <title><%= page_title %></title>
+    <%= stylesheet_link_tag    :application, :media => "all" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body class="<%= body_class %>">
+    <div class="container">
+      <%= render 'flashes' %>
+      <%= yield %>
+      <%= render 'javascript' %>
+    </div>
+  </body>
 </html>
