@@ -50,7 +50,7 @@ This template includes default gems:
 - `sendgrid-rails`      - Sendgrid mailer adapter
 - `will_paginate`       - Pagination extension for AR
 - `bourbon`             - Sass Mixins
-- 'neat'                - Fluid Grid Framework
+- `neat`                - Fluid Grid Framework
 - `flutie`              - Style Defaults
 - `high_voltage`        - Simple static pages
 - `rspec`               - Test Framework
